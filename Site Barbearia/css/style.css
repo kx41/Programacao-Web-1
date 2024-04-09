@@ -1,0 +1,64 @@
+:root {
+	--corbackground:#BBBBBB;
+	--cornava: #000000;
+	--cornavahover: #C78C19;
+	--corcopyright: #CCCCCC;
+	--fontebody: 'Montserrat', sans-serif;
+}
+
+
+body {
+	font-family: var(--fontebody);
+}
+
+header {
+	background-color: var(--corbackground);
+	padding:20px 0;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: var(--cornava);
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: var(--cornavahover);
+	text-decoration: underline;
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0;
+	background: url(../assets/bg.jpg);
+}
+
+.copyright{
+	color: var(--corcopyright);
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.caixa{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+
+
