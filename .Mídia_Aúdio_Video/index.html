@@ -7,6 +7,17 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Image Dinâmica</h1>
+    <p>Site para vários dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width:75px)"srcset="Img/foto-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="Img/foto-m.jpg" type="image/jpg">
+        <img src="Img/foto-g.jpg" alt="Imagem Flexível">
+    </picture>
+<h1>Criando área de clique em uma imagem a Tag &lt;MAP&gt;</h1>
+    <img src="Img/workplace.jpg" alt="Mesa de Trabalho" usemap="#workmap">
+    <map name="workmap">
+        
+    </map>
 </body>
 </html>
