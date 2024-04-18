@@ -1,23 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mídias em HTML5</title>
 </head>
 <body>
-    <h1>Image Dinâmica</h1>
+    <h1> Imagem Dinâmica</h1>
     <p>Site para vários dispositivos diferentes</p>
     <picture>
-        <source media="(max-width:75px)"srcset="Img/foto-p.jpg" type="image/jpg">
-        <source media="(max-width: 1050px )" srcset="Img/foto-m.jpg" type="image/jpg">
-        <img src="Img/foto-g.jpg" alt="Imagem Flexível">
+       <source media="(max-width:750px)" srcset="Img/foto-p.jpg" type="image/jpg">
+       <source media="(max-width: 1050px)" srcset="Img/foto-m.jpg" type="image/jpg">
+       <img src="Img/foto-g.jpg" alt="Imagem Flexível">
     </picture>
-<h1>Criando área de clique em uma imagem a Tag &lt;MAP&gt;</h1>
+
+    <h1>Criando área de clique em uma imagem com a Tag &lt;MAP&gt;</h1>
     <img src="Img/workplace.jpg" alt="Mesa de Trabalho" usemap="#workmap">
     <map name="workmap">
-        
+        <area shape="rect" coords="35,45,273,348" href="computador.html" alt="Computador">
+        <area shape="rect" coords="289,172,334,248" href="telefone.html" alt="Telefone Celular">
+        <area shape="circle" coords="337,303,45" href="coofee.html" alt="Xícara de Café">
     </map>
+
+    <h1>Reproduzir Áudio hospedado localmente</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audio/County Lines - Telecasted.mp3" type="audio/mpeg">
+        <source src="audio/County Lines - Telecasted.ogv" type="audio/ogg">
+        <source src="audio/County Lines - Telecasted.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="audio/County Lines - Telecasted.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <video width="560" poster="" controls autoplay loop>
+        <source src="video/meu-video.mp4" type="video/mp4">
+        <source src="video/meu-video.m4v" type="video/mp4">
+        <source src="video/meu-video.webm" type="video/webm">
+        <source src="video/meu-video.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir o vídeo.</p>
+    </video>
+
+    <p>
+        <iframe src="https://player.vimeo.com/video/362383763?h=07238ca199" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p><a href="https://vimeo.com/362383763">Quarter Life Poetry: Damn I Love This Friday Night</a> from <a href="https://vimeo.com/user35010815">Samantha Jayne</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+    </p>
+
 </body>
 </html>
