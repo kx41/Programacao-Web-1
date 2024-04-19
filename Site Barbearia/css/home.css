@@ -81,7 +81,8 @@
 }
 
 .banner{
-	width: 100%;
+	width: 40%;
+
 }
 
 .imagem-beneficios{
@@ -95,7 +96,7 @@
 	opacity: 0.3;
 }
 
-utensilios{
+.utensilios{
 	width: 120px;
 	float: left;
 	margin: 0 20px 20px 0;
