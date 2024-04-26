@@ -1,4 +1,4 @@
-# Programacao-Web-1
- Aulas de HTML5, CSS3 e JavaScript
+# Programacao Web I
+ Aulas de HTML5, CSS3 e JavaScript.
 
-Site sobre barbearia
+ Site sobre Barbearia.
